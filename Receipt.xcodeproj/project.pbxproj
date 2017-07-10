@@ -12,6 +12,8 @@
 		3F56A0341F13EF620061C901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F56A0321F13EF620061C901 /* Main.storyboard */; };
 		3F56A0361F13EF620061C901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F56A0351F13EF620061C901 /* Assets.xcassets */; };
 		3F56A0391F13EF620061C901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F56A0371F13EF620061C901 /* LaunchScreen.storyboard */; };
+		3F56A0411F13EFCC0061C901 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A0401F13EFCC0061C901 /* ReceiptView.swift */; };
+		3F56A0431F1407C50061C901 /* BarcodeGenrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A0421F1407C50061C901 /* BarcodeGenrator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3F56A0351F13EF620061C901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F56A0381F13EF620061C901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F56A03A1F13EF620061C901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F56A0401F13EFCC0061C901 /* ReceiptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		3F56A0421F1407C50061C901 /* BarcodeGenrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeGenrator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3F56A0351F13EF620061C901 /* Assets.xcassets */,
 				3F56A0371F13EF620061C901 /* LaunchScreen.storyboard */,
 				3F56A03A1F13EF620061C901 /* Info.plist */,
+				3F56A0401F13EFCC0061C901 /* ReceiptView.swift */,
+				3F56A0421F1407C50061C901 /* BarcodeGenrator.swift */,
 			);
 			path = Receipt;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F56A0411F13EFCC0061C901 /* ReceiptView.swift in Sources */,
+				3F56A0431F1407C50061C901 /* BarcodeGenrator.swift in Sources */,
 				3F56A0311F13EF620061C901 /* ViewController.swift in Sources */,
 				3F56A02F1F13EF620061C901 /* AppDelegate.swift in Sources */,
 			);
